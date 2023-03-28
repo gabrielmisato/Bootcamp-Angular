@@ -1,0 +1,19 @@
+Nesta primeira etapa do bootcamp foi realizada a introdução ao Git/Github.
+
+Foi aprendido os comandos para o Git Bash:
+	Git init 		- inicializa o respositório local;
+	Git add remote origin 	- faz uma conexão do repositório local para o remoto;
+	Git add 		- reserva os arquivos para o staging;
+	Git commit 		- prepara os arquivos para ser realizado o push;
+	Git push 		- envia os arquivos para o respositório remoto;
+	Git clone 		- clona os arquivos do repositório remoto para o local;
+
+Chaves SSH geradas para possuir uma maior segurança. Comandos realizados:
+
+Auth Key
+	ssh-keygen -t ed25519 -C <seu email>
+	cd ~
+	cd .ssh
+	cat id_ed25519.pub
+	eval $(ssh-agent -s)
+	ssh-add id_ed25519
